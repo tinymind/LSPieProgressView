@@ -29,7 +29,7 @@ static const int kLSPieProgressViewTag  = 201;
 - (void)setProgress:(CGFloat)progress
 {
     _progress = MAX(0, progress);
-    if (_progress > 1) {
+    if (_progress >= 1) {
         [self removeFromSuperview];
     }
 
