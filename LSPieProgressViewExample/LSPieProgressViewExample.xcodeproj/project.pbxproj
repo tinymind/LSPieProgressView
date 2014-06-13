@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B157A581194AF72D00A06571 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B157A580194AF72D00A06571 /* Foundation.framework */; };
+		B157A583194AF72D00A06571 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B157A582194AF72D00A06571 /* CoreGraphics.framework */; };
+		B157A585194AF72D00A06571 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B157A584194AF72D00A06571 /* UIKit.framework */; };
+		B157A58B194AF72D00A06571 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B157A589194AF72D00A06571 /* InfoPlist.strings */; };
+		B157A58D194AF72D00A06571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B157A58C194AF72D00A06571 /* main.m */; };
+		B157A591194AF72D00A06571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B157A590194AF72D00A06571 /* AppDelegate.m */; };
+		B157A594194AF72D00A06571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B157A592194AF72D00A06571 /* Main.storyboard */; };
+		B157A597194AF72D00A06571 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B157A596194AF72D00A06571 /* ViewController.m */; };
+		B157A599194AF72D00A06571 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B157A598194AF72D00A06571 /* Images.xcassets */; };
+		B157A5A0194AF72D00A06571 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B157A59F194AF72D00A06571 /* XCTest.framework */; };
+		B157A5A1194AF72D00A06571 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B157A580194AF72D00A06571 /* Foundation.framework */; };
+		B157A5A2194AF72D00A06571 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B157A584194AF72D00A06571 /* UIKit.framework */; };
+		B157A5AA194AF72D00A06571 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B157A5A8194AF72D00A06571 /* InfoPlist.strings */; };
+		B157A5AC194AF72D00A06571 /* LSPieProgressViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B157A5AB194AF72D00A06571 /* LSPieProgressViewExampleTests.m */; };
+		B157A5B8194AFBE800A06571 /* UIView+LSPieProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = B157A5B7194AFBE800A06571 /* UIView+LSPieProgress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B157A5A3194AF72D00A06571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B157A575194AF72D00A06571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B157A57C194AF72D00A06571;
+			remoteInfo = LSPieProgressViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B157A57D194AF72D00A06571 /* LSPieProgressViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSPieProgressViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B157A580194AF72D00A06571 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B157A582194AF72D00A06571 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B157A584194AF72D00A06571 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B157A588194AF72D00A06571 /* LSPieProgressViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LSPieProgressViewExample-Info.plist"; sourceTree = "<group>"; };
+		B157A58A194AF72D00A06571 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B157A58C194AF72D00A06571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B157A58E194AF72D00A06571 /* LSPieProgressViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSPieProgressViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		B157A58F194AF72D00A06571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B157A590194AF72D00A06571 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B157A593194AF72D00A06571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B157A595194AF72D00A06571 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B157A596194AF72D00A06571 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B157A598194AF72D00A06571 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B157A59E194AF72D00A06571 /* LSPieProgressViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSPieProgressViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B157A59F194AF72D00A06571 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B157A5A7194AF72D00A06571 /* LSPieProgressViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LSPieProgressViewExampleTests-Info.plist"; sourceTree = "<group>"; };
+		B157A5A9194AF72D00A06571 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B157A5AB194AF72D00A06571 /* LSPieProgressViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPieProgressViewExampleTests.m; sourceTree = "<group>"; };
+		B157A5B6194AFBE800A06571 /* UIView+LSPieProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LSPieProgress.h"; sourceTree = "<group>"; };
+		B157A5B7194AFBE800A06571 /* UIView+LSPieProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LSPieProgress.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B157A57A194AF72D00A06571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B157A583194AF72D00A06571 /* CoreGraphics.framework in Frameworks */,
+				B157A585194AF72D00A06571 /* UIKit.framework in Frameworks */,
+				B157A581194AF72D00A06571 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B157A59B194AF72D00A06571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B157A5A0194AF72D00A06571 /* XCTest.framework in Frameworks */,
+				B157A5A2194AF72D00A06571 /* UIKit.framework in Frameworks */,
+				B157A5A1194AF72D00A06571 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B157A574194AF72D00A06571 = {
+			isa = PBXGroup;
+			children = (
+				B157A586194AF72D00A06571 /* LSPieProgressViewExample */,
+				B157A5A5194AF72D00A06571 /* LSPieProgressViewExampleTests */,
+				B157A57F194AF72D00A06571 /* Frameworks */,
+				B157A57E194AF72D00A06571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B157A57E194AF72D00A06571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B157A57D194AF72D00A06571 /* LSPieProgressViewExample.app */,
+				B157A59E194AF72D00A06571 /* LSPieProgressViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B157A57F194AF72D00A06571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B157A580194AF72D00A06571 /* Foundation.framework */,
+				B157A582194AF72D00A06571 /* CoreGraphics.framework */,
+				B157A584194AF72D00A06571 /* UIKit.framework */,
+				B157A59F194AF72D00A06571 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B157A586194AF72D00A06571 /* LSPieProgressViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				B157A5B5194AFBE800A06571 /* UIView+LSPieProgress */,
+				B157A58F194AF72D00A06571 /* AppDelegate.h */,
+				B157A590194AF72D00A06571 /* AppDelegate.m */,
+				B157A592194AF72D00A06571 /* Main.storyboard */,
+				B157A595194AF72D00A06571 /* ViewController.h */,
+				B157A596194AF72D00A06571 /* ViewController.m */,
+				B157A598194AF72D00A06571 /* Images.xcassets */,
+				B157A587194AF72D00A06571 /* Supporting Files */,
+			);
+			path = LSPieProgressViewExample;
+			sourceTree = "<group>";
+		};
+		B157A587194AF72D00A06571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B157A588194AF72D00A06571 /* LSPieProgressViewExample-Info.plist */,
+				B157A589194AF72D00A06571 /* InfoPlist.strings */,
+				B157A58C194AF72D00A06571 /* main.m */,
+				B157A58E194AF72D00A06571 /* LSPieProgressViewExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B157A5A5194AF72D00A06571 /* LSPieProgressViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B157A5AB194AF72D00A06571 /* LSPieProgressViewExampleTests.m */,
+				B157A5A6194AF72D00A06571 /* Supporting Files */,
+			);
+			path = LSPieProgressViewExampleTests;
+			sourceTree = "<group>";
+		};
+		B157A5A6194AF72D00A06571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B157A5A7194AF72D00A06571 /* LSPieProgressViewExampleTests-Info.plist */,
+				B157A5A8194AF72D00A06571 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B157A5B5194AFBE800A06571 /* UIView+LSPieProgress */ = {
+			isa = PBXGroup;
+			children = (
+				B157A5B6194AFBE800A06571 /* UIView+LSPieProgress.h */,
+				B157A5B7194AFBE800A06571 /* UIView+LSPieProgress.m */,
+			);
+			path = "UIView+LSPieProgress";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B157A57C194AF72D00A06571 /* LSPieProgressViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B157A5AF194AF72D00A06571 /* Build configuration list for PBXNativeTarget "LSPieProgressViewExample" */;
+			buildPhases = (
+				B157A579194AF72D00A06571 /* Sources */,
+				B157A57A194AF72D00A06571 /* Frameworks */,
+				B157A57B194AF72D00A06571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSPieProgressViewExample;
+			productName = LSPieProgressViewExample;
+			productReference = B157A57D194AF72D00A06571 /* LSPieProgressViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B157A59D194AF72D00A06571 /* LSPieProgressViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B157A5B2194AF72D00A06571 /* Build configuration list for PBXNativeTarget "LSPieProgressViewExampleTests" */;
+			buildPhases = (
+				B157A59A194AF72D00A06571 /* Sources */,
+				B157A59B194AF72D00A06571 /* Frameworks */,
+				B157A59C194AF72D00A06571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B157A5A4194AF72D00A06571 /* PBXTargetDependency */,
+			);
+			name = LSPieProgressViewExampleTests;
+			productName = LSPieProgressViewExampleTests;
+			productReference = B157A59E194AF72D00A06571 /* LSPieProgressViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B157A575194AF72D00A06571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lessfun;
+				TargetAttributes = {
+					B157A59D194AF72D00A06571 = {
+						TestTargetID = B157A57C194AF72D00A06571;
+					};
+				};
+			};
+			buildConfigurationList = B157A578194AF72D00A06571 /* Build configuration list for PBXProject "LSPieProgressViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B157A574194AF72D00A06571;
+			productRefGroup = B157A57E194AF72D00A06571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B157A57C194AF72D00A06571 /* LSPieProgressViewExample */,
+				B157A59D194AF72D00A06571 /* LSPieProgressViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B157A57B194AF72D00A06571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B157A599194AF72D00A06571 /* Images.xcassets in Resources */,
+				B157A58B194AF72D00A06571 /* InfoPlist.strings in Resources */,
+				B157A594194AF72D00A06571 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B157A59C194AF72D00A06571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B157A5AA194AF72D00A06571 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B157A579194AF72D00A06571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B157A597194AF72D00A06571 /* ViewController.m in Sources */,
+				B157A591194AF72D00A06571 /* AppDelegate.m in Sources */,
+				B157A58D194AF72D00A06571 /* main.m in Sources */,
+				B157A5B8194AFBE800A06571 /* UIView+LSPieProgress.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B157A59A194AF72D00A06571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B157A5AC194AF72D00A06571 /* LSPieProgressViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B157A5A4194AF72D00A06571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B157A57C194AF72D00A06571 /* LSPieProgressViewExample */;
+			targetProxy = B157A5A3194AF72D00A06571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B157A589194AF72D00A06571 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B157A58A194AF72D00A06571 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B157A592194AF72D00A06571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B157A593194AF72D00A06571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B157A5A8194AF72D00A06571 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B157A5A9194AF72D00A06571 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B157A5AD194AF72D00A06571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B157A5AE194AF72D00A06571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B157A5B0194AF72D00A06571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LSPieProgressViewExample/LSPieProgressViewExample-Prefix.pch";
+				INFOPLIST_FILE = "LSPieProgressViewExample/LSPieProgressViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B157A5B1194AF72D00A06571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LSPieProgressViewExample/LSPieProgressViewExample-Prefix.pch";
+				INFOPLIST_FILE = "LSPieProgressViewExample/LSPieProgressViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B157A5B3194AF72D00A06571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LSPieProgressViewExample.app/LSPieProgressViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LSPieProgressViewExample/LSPieProgressViewExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LSPieProgressViewExampleTests/LSPieProgressViewExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B157A5B4194AF72D00A06571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LSPieProgressViewExample.app/LSPieProgressViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LSPieProgressViewExample/LSPieProgressViewExample-Prefix.pch";
+				INFOPLIST_FILE = "LSPieProgressViewExampleTests/LSPieProgressViewExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B157A578194AF72D00A06571 /* Build configuration list for PBXProject "LSPieProgressViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B157A5AD194AF72D00A06571 /* Debug */,
+				B157A5AE194AF72D00A06571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B157A5AF194AF72D00A06571 /* Build configuration list for PBXNativeTarget "LSPieProgressViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B157A5B0194AF72D00A06571 /* Debug */,
+				B157A5B1194AF72D00A06571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B157A5B2194AF72D00A06571 /* Build configuration list for PBXNativeTarget "LSPieProgressViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B157A5B3194AF72D00A06571 /* Debug */,
+				B157A5B4194AF72D00A06571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B157A575194AF72D00A06571 /* Project object */;
+}
