@@ -1,22 +1,22 @@
-LSPieProgressView
+LSProgressView
 =================
 
-A UIView Category, can show progress with fan shape, like a clock timer.
-
+A UIView Category, can show progress with fan / rect shape, like a clock / slider.
 
 ####Installation
 
-Add `UIView+LSPieProgress.h` and `UIView+LSPieProgress.m` to your project. 
+Add `UIView+Progress.h` and `UIView+Progress.m` to your project. 
 
 ####Usage
 
 ``` cpp
 
-  #import "UIView+LSPieProgress.h"
+  #import "UIView+Progress.h"
 
   - (void)onProgressChanged:(CGFloat)progress
   {
-    [self.progressButton setProgress:progress];
+    [self.progressButton1 setPieProgress:progress];
+    [self.progressButton2 setRectProgress:progress];
   }
   
 ```
